@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo da Beatriz</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: white;
+            text-align: center;
+            padding: 4rem 1rem;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .section {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .section h2 {
+            color: #2575fc;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #f4f7f6;
+            padding-bottom: 0.5rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .card {
+            background: #f9f9f9;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 5px solid #6a11cb;
+        }
+
+        .card h3 {
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #777;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Olá, eu sou a Beatriz!</h1>
+        <p>Bem-vindo ao meu espaço técnico e criativo onde compartilho minhas paixões.</p>
+    </header>
+
+    <div class="container">
+
+        <section class="section">
+            <h2>Sobre Mim</h2>
+            <p>Adoro esportes, movimento e expressar minha criatividade através das cores e do papel. Aqui você pode conhecer um pouco mais sobre o que eu gosto de fazer nas minhas horas vagas!</p>
+        </section>
+
+        <section class="section">
+            <h2>Minhas Paixões</h2>
+            <div class="grid">
+                
+                <div class="card">
+                    <h3>🏐 Vôlei</h3>
+                    <p>Amo a energia do vôlei, o trabalho em equipe e a sensação de fazer um bom ponto. É onde descarrego as energias e me divirto com amigos.</p>
+                </div>
+
+                <div class="card">
+                    <h3>✏️ Desenhos</h3>
+                    <p>Desenhar é uma das minhas formas favoritas de dar vida à imaginação. Adoro rascunhar ideias, criar personagens e treinar traços novos.</p>
+                </div>
+
+                <div class="card">
+                    <h3>🎨 Pinturas</h3>
+                    <p>Com as pinturas eu posso explorar cores, texturas e sentimentos. Seja com aquarela, tinta acrílica ou digital, pintar me traz paz e liberdade.</p>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Criado com ❤️ por Beatriz</p>
+    </footer>
+
+</body>
+</html>
